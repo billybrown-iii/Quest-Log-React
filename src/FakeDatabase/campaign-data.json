@@ -1,0 +1,296 @@
+{
+	"campaigns": [
+		{
+			"name": "Finding Screamo",
+			"key": "a12d3",
+			"gameMaster": "Tom",
+			"players": [
+				{ "name": "Bob", "character": "Cordelia de la Muerte"},
+				{ "name": "Joe", "character": "Lyle Swift"}
+			],
+			"uiStyle": "bloody-book",
+			"sessions": [
+				"session1",
+				"session2",
+				"session3"
+			]
+		}
+	],
+	"quests": [
+		{
+			"campaign": "a12d3",
+			"name": "Everyone's a Suspect",
+			"key": "vrySus",
+			"description": "Someone is sabotaging Prince Bianca's operations at Dream Corps.  Her closest advisors believe it is part of an Anarch plot to undermine her authority, but she's not so sure.  She wants an independent investigation into the matter.",
+			"createdBy": "Tom",
+			"currentGoals": [
+				"Investigate the warehouse basement",
+				"Investigate the source of Dream Corps. bomb threat."
+			]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Find that Rat-Bastard",
+			"key": "R4t55",
+			"description": "Lyle's sire was one of the Kindred that mysteriously disappeared 2 months ago.  Worse yet, he still had Lyle's vintage super nintendo and all its games in his possession!  Lyle is willing to risk life and limb to get his games back.",
+			"createdBy": "Joe",
+			"currentGoals": [
+				"Get back his games and SNES",
+				"Learn anything and everything about the disappeared Kindred"
+			]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Not so Flawless",
+			"key": "Cr4ck",
+			"description": "Cordelia and the Masquerade have a tenuous relationship at best... meaning she's breached it three times already.  The old Prince had a soft spot for her and was willing to overlook her transgressions.  The new one?  Not so much.  She either gets her act together or she'll be catching a sunrise in the near future.",
+			"createdBy": "Bob",
+			"currentGoals": [
+				"Curry favor with the new Prince and her court",
+				"Win over Dorian"
+			]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Meet and Greet",
+			"key": "PILOT",
+			"description": "The new Prince is hosting a party to celebrate her new title.  Cordelia and Lyle are 'unexpectedly' invited.",
+			"createdBy": "Tom",
+			"currentGoals": []
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Sharp Threads",
+			"key": "sHaRp",
+			"description": "Hell hath no fury like a Toreador scorned.  Internationally renowned designer Clarissa has her vengeful eyes set on a certain pair of miscreants who stole from her.",
+			"createdBy": "Tom",
+			"currentGoals": ["Ask Clarissa what can be done to appease her wrath."]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "A Date to Die for",
+			"key": "flert",
+			"description": "Cordelia isn't too keen on the new Prince.  The Sherif, Dorian, on the other hand, may make for a valuable ally.  Perhaps with a little sweet talk, he could even be turned against the Prince.",
+			"createdBy": "Bob",
+			"currentGoals": ["Wait for Dorian to schedule a date."]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Gone but not Forgotten",
+			"key": "aliens",
+			"description": "About 2 months ago, 40 prominent Kindred disappeared from the city without leaving a trace.  At this point, many have given up hope of their safe return...  And fear ligers throughout the streets that it may happen again.",
+			"createdBy": "Tom",
+			"currentGoals": [
+				"Figure out who the victims were",
+				"Figure out what exactly happened"
+			]
+		},
+		{
+			"campaign": "a12d3",
+			"name": "Leaving Loose Ends",
+			"key": "L00s3",
+			"description": "Cordelia was already on thing ice for masquerade violations.  Now, she's led one more human to questioning whether the supernatural exist.  The Prince expects her to deal with it quietly.",
+			"createdBy": "Tom",
+			"currentGoals": ["Find a nonviolent way to deal with the warehouse manager."]
+		}
+	],
+	"milestones": [
+		{
+			"description": "Cordelia forces Lyle to go shopping for a new party dress with her at a hot new outlet owned by a famous Toreador.",
+			"occurred": "2024-07-21T13:32:16.581Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT"]
+		},
+		{
+			"description": "Cordelia steals a dress.  The store owner is not amused.",
+			"occurred": "2024-07-21T13:37:14.578Z",
+			"session": "session1",
+			"step": 2,
+			"addedBy": "Tom",
+			"quests": ["PILOT", "sHaRp"]
+		},
+		{
+			"description": "Lyle convinces the store owner to take fake currency and smooth talks his way out of the store.",
+			"occurred": "2024-07-21T13:37:28.136Z",
+			"session": "session1",
+			"addedBy": "Joe",
+			"quests": ["PILOT", "sHaRp"]
+		},
+		{
+			"description": "Lyle grabs a snack.  Turns out the snack was seriously stoned.  Now, so is Lyle.",
+			"occurred": "2024-07-21T13:39:08.540Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT"]
+		},
+		{
+			"description": "Lyle and Cordelia arrive at the party fashionably late.",
+			"occurred": "2024-07-21T13:40:07.597Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT"]
+		},
+		{
+			"description": "Lyle tries to debate philosophy with the Tremere Primogen.  Cordelia watches in horror.",
+			"occurred": "2024-07-21T13:40:22.956Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT"]
+		},
+		{
+			"description": "In his stoned stupor, Lyle makes an insightful remark, curring favor with the Tremere Primogen.",
+			"occurred": "2024-07-21T13:51:30.683Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT"]
+		},
+		{
+			"description": "Cordelia admits to Lyle that she is the reason she and Lyle were invited to the Prince's party.  She refuses to explain why.",
+			"occurred": "2024-07-21T13:51:41.127Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT", "Cr4ck"]
+		},
+		{
+			"description": "The new Prince requests an audience with Cordelia and Lyle alone.  She asks the duo to investigate the recent disruption in the supply lines for her shell company, Dream Corps.",
+			"occurred": "2024-07-21T14:48:05.929Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["PILOT", "Cr4ck", "vrySus"]
+		},
+		{
+			"description": "Lyle asks the Prince if she is concerned about her new promotion when the old Prince may still be alive.  She is suspiciously unconcerned.",
+			"occurred": "2024-07-21T14:48:14.276Z",
+			"session": "session1",
+			"addedBy": "Joe",
+			"quests": ["R4t55"]
+		},
+		{
+			"description": "Cordelia flirts with the Sheriff.  They exchange numbers.",
+			"occurred": "2024-07-21T14:48:21.980Z",
+			"session": "session1",
+			"addedBy": "Bob",
+			"quests": ["flert"]
+		},
+		{
+			"description": "After leaving the party, Cordelia and Lyle are ambushed by a group of thug Toreadors.  They seem overly concerned with not messing up Cordelia's dress.  They also pretend Lyle isn't there.",
+			"occurred": "2024-07-21T14:48:31.042Z",
+			"session": "session1",
+			"addedBy": "Tom",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "Lyle dumps mud all over Cordelia, effectively ruining the party dress.  The Toreador thugs don't know what to do.",
+			"occurred": "2024-07-21T14:51:21.531Z",
+			"session": "session1",
+			"addedBy": "Joe",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "Lyle convinces Cordelia to follow him into the sewers while the thugs are arguing.  The thugs refuse to follow.",
+			"occurred": "2024-07-21T15:01:45.368Z",
+			"session": "session1",
+			"addedBy": "Joe",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "Lyle prepares to visit the warehouse by examining its blueprints.",
+			"occurred": "2024-07-21T15:00:58.275Z",
+			"session": "session2",
+			"addedBy": "Joe",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "Cordelia and Lyle show up at the Dream Corps. warehouse undercover as new nightwatchmen.",
+			"occurred": "2024-07-21T15:01:58.275Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "Lyle and Cordelia unintentionally reveal their ignorance about the position as the nightwatch manager tries to explain their duties.",
+			"occurred": "2024-07-21T15:02:05.965Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "Lyle proves his worth for the position by demonstrating his strength.  The warehouse manager approves.",
+			"occurred": "2024-07-21T15:16:39.371Z",
+			"session": "session2",
+			"addedBy": "Joe",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "Cordelia tries to prove her worth for the position by demonstrating her strength.  The Beast steps in.  She knocks over one of the warehouse shelving units.  The warehouse manager no longer questions her qualifications but is questioning other things about her.",
+			"occurred": "2024-07-21T15:16:50.718Z",
+			"session": "session2",
+			"addedBy": "Bob",
+			"quests": ["vrySus", "L00s3"]
+		},
+		{
+			"description": "While investigating some very suspicious pillows in the warehouse, Lyle finds one of his game consoles.  Why would his sire have been here?  And why the hell did he drop one of the games here???",
+			"occurred": "2024-07-21T15:22:11.307Z",
+			"session": "session2",
+			"addedBy": "Joe",
+			"quests": ["R4t55", "aliens"]
+		},
+		{
+			"description": "While Lyle 'investigates' the pillows, Cordelia texts Dorian.  He's busy for the next few nights but will text her for a date soon.",
+			"occurred": "2024-07-21T15:22:26.150Z",
+			"session": "session2",
+			"addedBy": "Bob",
+			"quests": ["flert"]
+		},
+		{
+			"description": "Lyle and Cordelia find some anarch graffiti on the warehouse's back wall, but it seems off.  Some parts are freshly painted, but it looks like someone crudely traced over an existing tag.",
+			"occurred": "2024-07-21T15:27:04.842Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "The toreador thugs drop in with new orders:  Since they can't retrieve the dress, they'll just take Cordelia's life.",
+			"occurred": "2024-07-21T15:27:15.574Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "Cordelia and Lyle curb stomp the thugs.",
+			"occurred": "22024-07-21T15:39:24.433Z",
+			"session": "session2",
+			"addedBy": "Joe",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "A mysterious Ventrue who watched the battle reveals himself with a warning: Clarissa, the fashion designer who sent the thugs, has only been playing with them thus far.  She expected that a little show of force would bring Lyle and Cordelia to her doorstep groveling for forgiveness.  If they don't pay her a visit soon, she'll unleash her real forces against them.",
+			"occurred": "2024-07-21T15:39:35.731Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["sHaRp"]
+		},
+		{
+			"description": "Cordelia stumbles onto a trap door.  She asks Lyle why he didn't mention there was a basement.  He never saw one on the floor plans.",
+			"occurred": "2024-07-21T15:39:50.241Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "The warehouse manager orders everyone to evacuate because he received a bomb threat.  When the police show up, Lyle and Cordelia are forced to abandon their quest for the night.",
+			"occurred": "2024-07-21T15:48:05.756Z",
+			"session": "session2",
+			"addedBy": "Tom",
+			"quests": ["vrySus"]
+		},
+		{
+			"description": "Cordelia receives a call from the Prince.  She's not happy about questions the warehouse manager is asking about the new nightwatchmen.  Cordelia needs to deal with it and FAST.",
+			"occurred": "2024-07-21T15:48:14.683Z",
+			"session": "session3",
+			"addedBy": "Tom",
+			"quests": ["L00s3"]
+		}
+	]
+}

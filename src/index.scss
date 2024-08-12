@@ -1,0 +1,80 @@
+
+// colors lifted from here - see bottom of page:
+// https://draculatheme.com/tailwind
+
+// nosferatu 900
+$bg-color: #282a36;
+
+// nosferatu 800
+$card-lv-1-color: #373a4d;
+
+// dracula 50
+$text-color: #fefeff;
+
+// dracula 400
+$accent-bright: #a771f6;
+
+
+
+html {
+    background-color: $bg-color;
+    color: $text-color;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: transparent; 
+    color: $text-color;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #999;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+// temporary class, pending addition of full size styling.
+// When you're on desktop viewport size, it will confine all UI to a mobile-sized area
+#mobile-sized-container {
+    background-color: $card-lv-1-color;
+    max-height: 600px;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type="text"] {
+    background-color: #1E1E1E;
+    border: 2px solid #333;
+    color: #E0E0E0;
+    padding: 10px 15px;
+    font-size: 12pt;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.1s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: $accent-bright;
+  }
